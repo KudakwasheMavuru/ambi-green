@@ -19,7 +19,7 @@ https://templatemo.com/tm-567-nomad-force
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'Noto Sans JP', sans-serif;
+  --body-font-family:           'Rubik', sans-serif;
 
   --h1-font-size:               72px;
   --h2-font-size:               42px;
@@ -35,6 +35,15 @@ https://templatemo.com/tm-567-nomad-force
   --font-weight-normal:         400;
   --font-weight-bold:           700;
   --font-weight-black:          900;
+}
+
+#about p{
+  font-size: 15px;
+}
+
+#about span ul li {
+  font-size: 15px;
+  color: var(--p-color);
 }
 
 body,
@@ -877,6 +886,7 @@ a.btn{
 }
 
 .our-services .item p {
+  text-align: left;
   margin-top: 35px;
   padding-top: 30px;
   border-top: 1px solid #eee;
@@ -1116,4 +1126,23 @@ Portfolio
 
 .our-portfolio .showed-content img {
   max-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .hero h1{
+    font-size: 20px;
+  }
+  .hero p{
+    font-size: 16px;
+  }
+  #portfolio p{
+    font-size: 15px;
+  }
+  #contact h2{
+    font-size: 19px;
+  }
+
+
+
+
 }
